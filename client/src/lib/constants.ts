@@ -46,7 +46,7 @@ export const FAQ_ITEMS = [
 
 export const CONTACT_INFO = {
   email: 'info@simulyn.com',
-  location: 'الأردن – عمّان (متاح عن بُعد لجميع المحافظات)',
+  location: 'الأردن – عمّان',
   socials: {
     linkedin: '#',
     facebook: '#',

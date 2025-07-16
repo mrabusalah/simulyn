@@ -8,7 +8,7 @@ import { FAQ_ITEMS } from "@/lib/constants";
 
 export default function FAQ() {
   return (
-    <section id="faq" className="py-20 bg-[fff]" style={{ backgroundColor: 'hsl(220, 13%, 95%)' }}>
+    <section id="faq" className="py-20 bg-[fff]">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
