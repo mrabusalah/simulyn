@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Laptop } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { Menu, X } from "lucide-react";
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,8 +26,10 @@ export default function Navigation() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-reverse space-x-2">
-            <Laptop className="text-purple text-2xl" />
-            <h1 className="text-2xl font-bold text-navy">Simulyn</h1>
+            <img
+            src="/img/hero-logo.png"
+            alt="Simulyn Logo"
+            className="h-10 w-auto mx-auto"/>
           </div>
           
           {/* Desktop Navigation */}
